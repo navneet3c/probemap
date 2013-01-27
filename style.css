@@ -1,0 +1,104 @@
+#mapwrapper{
+left: 50px;
+position: relative;
+}
+#collegemap{
+position: relative;
+display: block;
+width: 580px;
+height: 748px;
+overflow: hidden;
+}
+#hider{
+overflow: hidden;
+}
+#mainmap{
+	width: 580px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+}
+.citydiv{
+	position: absolute;
+	display: block;
+	overflow: visible !important;
+	width: 7px;
+	height: 7px;
+	z-index: 15;
+}
+.icon{
+	width: 180%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: -60%;
+	margin-top: -60%;
+	border: none;
+}
+#nohide{
+left: 600px;
+position: absolute;
+top: 50px;
+display: block;
+}
+.cityhoverdiv{
+	display: none;
+	padding: 10px;
+	width: 300px;
+	color: #fff;
+	margin: 3px;
+	z-index: 12;
+	border: 1px solid #ccc;
+	background-color: rgba(40,40,40,0.4);
+	border-radius: 10px;
+}
+.citylabeldiv{
+	display: none;
+	padding: 5px;
+	border: 1px solid #fefefe;
+	border-radius: 5px;
+	font-size: 10px;
+	color: #fefefe;
+	font-family: Ubuntu,Calibri,sans-serif;
+	position: absolute;
+	margin: 15px;
+	z-index: 16;
+	background-color: rgba(40,40,40,0.4);
+}
+#city-Trichy{
+left: 30px;
+top: 30px;
+}
+#ripple1{
+	position: absolute;
+	z-index: 10;
+	margin: 0px;
+	height: 20px;
+	margin-left: -7px;
+	margin-top: -8px;
+	padding: 0px;
+	display: block;
+	opacity:0.5;
+}
+#ripple2{
+	position: absolute;
+	z-index: 10;
+	margin: 0px;
+	height: 40px;
+	margin-left: -17px;
+	margin-top: -18px;
+	padding: 0px;
+	display: block;
+	opacity:0.5;
+}
+#ripple3{
+	position: absolute;
+	z-index: 10;
+	margin: 0px;
+	height: 60px;
+	margin-left: -27px;
+	margin-top: -28px;
+	padding: 0px;
+	display: block;
+	opacity:0.5;
+}
